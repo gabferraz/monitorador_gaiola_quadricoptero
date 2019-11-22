@@ -5,8 +5,14 @@ Sistema de monitoração feito para a realização de testes de quadricopteros u
 A função do Arduino é se comunicar com o sensor magnético AS5040 e repassar os dados pela porta serial.
 ### Configuração dos Pinos
 **Pino D2 -** Chip Selector
+
+
 **Pino D3 -** Clock para sincronização de interface serial
+
+
 **Pino D4 -** Recebe saída de dados do sensor
+
+
 ### Depedências
 [Dash's AS5045 Library](https://github.com/DashZhang/AS5045)
 ### Datasheet do Sensor AS5040
